@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {color: black;}
+
+body {
+    background-color: rgb(255, 127, 80);
+}
+
+/* Header */
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color:#23252b;
+    justify-content: space-between;
+}
+
+#grup1{
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 11px;
+    padding-left: 60px;
+}
+
+#logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#logo h1 {
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 50px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: coral;
+}
+
+#grup2 {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#logyreg a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+#login:hover {
+    color: coral;
+}
+
+#register {
+    border: 1px solid aliceblue;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#register:hover {
+    color: coral;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: auto;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+/*Pagina principal, inicio, main y aside*/
+
+main {
+    display: flex ;
+    justify-content: center;
+}
+
+#principalpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+#slogan {
+    font-size: 1.1em;
+}
+
+#slogan h1 {
+    color: rgb(255, 105, 50);
+}
+
+#sect1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#sect1 img{
+    width: 1030px;
+}
+
+#sect2 {
+    display: flex;
+    width: 600px;
+    margin-top: 40px;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+#sect2:hover {
+    transform: scale(1.03);
+}
+
+#img img{
+    width: 300px;
+}
+
+#text {
+    text-decoration: none;
+    color: #262931;
+    width: 300px;
+    height: auto;
+    padding: 40px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 100%;
+    margin-left: 40px;
+    background-color: aliceblue;
+}
+
+#redes {
+    width: 400px;
+    height: auto;
+    margin: 35px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#redes a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#redes img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#redes h4 {
+    color: #23252b;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+
+/* Log in */
+
+#seccion {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#caja1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    margin-top: 150px;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.338);
+}
+
+#caja1 img {
+    width: 50px;
+    margin-top: 46px;
+}
+
+#caja1 form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#submit {
+    margin-top: 20px;
+}
+
+/* Productos*/
+
+#productos {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 222, 211);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around
+}
+
+.products {
+    width: 450px;
+    height: 700px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.222);
+    transition: 0.3s;
+}
+
+.products:hover {
+    transform: scale(1.05);
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    background-color:aliceblue;
+}
+
+.info h2 {
+    color: rgb(212, 117, 0);
+}
+
+#ensalada {
+    position: relative;
+    overflow: hidden;
+    background-image: url(image/ensalada.jpg);
+    background-size: cover;
+    background-position: 735px 1950px;
+}
+
+#tacos {
+    position: relative;
+    overflow: hidden;
+    background-image: url(image/tacos.jpg);
+    background-size: cover;
+    background-position: 500px 1950px;
+}
+
+#pastel {
+    position: relative;
+    overflow: hidden;
+    background-image: url(image/pastel.jpg);
+    background-size: cover;
+    background-position: 500px
+}
+
+#tostadas {
+    position: relative;
+    overflow: hidden;
+    background-image: url(image/tostadas.jpg);
+    background-size: cover;
+    background-position: 500px
+}
+
+#frutas {
+    position: relative;
+    overflow: hidden;
+    background-image: url(image/frutas.jpg);
+    background-size: cover;
+    background-position: 500px
+}
+
+#pasta {
+    position: relative;
+    overflow: hidden;
+    background-image: url(image/pasta.jpeg);
+    background-size: cover;
+    background-position: 900px;
+}
+
+/* Ingredientes y pasos de las recetas*/
+
+
+#contenedor {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloreceta {
+    width: 650px;
+}
+
+
+#tituloreceta img {
+    width: 100%;
+}
+
+#ingrypasos {
+    width: 650px;
+}
+
+
+/* Contacto */
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+#infocontacto {
+    width: 400px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+/* Sobre Nosotros */
+
+#sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.perfil {
+    width: 700px;
+    height: auto;
+}
+
+.perfil img {
+    width: 300px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #23252b;
+}
+
+footer p {
+    color: aliceblue;
+}
+
